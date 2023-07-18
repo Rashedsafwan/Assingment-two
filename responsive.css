@@ -1,0 +1,15 @@
+/* Responsive for tablet */
+
+
+
+/* Responsive for mobile */
+@media screen and (max-width: 425px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
+    
+}
