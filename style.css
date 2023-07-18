@@ -149,7 +149,7 @@ nav li a {
 
 .gamer-image {
     width: 60%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .gamer-image img {
@@ -221,6 +221,7 @@ nav li a {
 }
 .descrip{
     text-align: left;
+    width: 90%;
 }
 
 .box img {
@@ -270,5 +271,50 @@ nav li a {
     color: white;
     font-size: 2rem;
 }
-
 /* Online gamer section ends here */
+
+
+/* Horse section starts here */
+
+.horse-section{
+margin: 120px auto;
+}
+.horse-container{
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+}
+.horse-text{
+width: 50%;
+}
+.horse-image{
+width: 50%;
+position: relative;
+
+}
+.horse-image img{
+    width: 100%;
+}
+.baby{
+    width: 50%;
+    position: absolute;
+    bottom: -50px; left: -100px;
+}
+.horse-tittle{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 70%;
+}
+.horse-descrip{
+    width: 70%;
+    color: #534C64;
+    font-weight: 400;
+}
+.horse-play{
+    color: transparent;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+}
+
+/* Horse gamer section ends here */

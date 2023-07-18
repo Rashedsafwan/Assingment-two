@@ -35,7 +35,7 @@
 
     .gamer-image {
         width: 55%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .gamer-tittle {
@@ -57,10 +57,41 @@
         margin-top: 0px;
         /* padding: 50px; */
     }
+
     .online {
 
         margin-top: 0px;
         padding: 50px;
+    }
+
+    .horse-section {
+        margin: 0px;
+    }
+
+    .horse-container {
+        padding: 50px;
+    }
+
+    .horse-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .horse-image {
+        width: 60%;
+    }
+    .horse-tittle {
+        width: 90%;
+        margin: 0px;
+    }
+
+    .horse-descrip {
+        width: 85%;
+        margin: 0px;
+    }
+    .baby {
+        bottom: -20px;
+        left: -30px;
     }
 }
 
@@ -159,5 +190,42 @@
 
     .online-funny {
         font-size: 1.3rem;
+    }
+
+    /* Horse Section */
+    .horse-section {
+        margin: 0px;
+    }
+
+    .horse-container {
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px;
+    }
+
+    .horse-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .horse-image {
+        width: 80%;
+
+    }
+
+    .horse-tittle {
+
+        width: 100%;
+    }
+
+    .horse-descrip {
+        width: 100%;
+
+    }
+
+    .baby {
+        position: absolute;
+        bottom: -20px;
+        left: -30px;
     }
 }
