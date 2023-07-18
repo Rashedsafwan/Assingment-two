@@ -23,26 +23,45 @@
         height: 100%;
         margin: 0 auto;
     }
+
     /* gamer banner */
-    .gamer-banner{
+    .gamer-banner {
         padding: 50px;
     }
-    .gamer-text{
+
+    .gamer-text {
         width: 45%;
     }
-    .gamer-image{
+
+    .gamer-image {
         width: 55%;
         border: 1px solid red;
     }
-   .gamer-tittle{
-    font-size: 2.5rem;
-   }
-   .btn3{
-    font-size: 1rem;
-   }
-   .quote{
-    font-size: 1rem;
-   }
+
+    .gamer-tittle {
+        font-size: 2.5rem;
+    }
+
+    .btn3 {
+        font-size: 1rem;
+    }
+
+    .quote {
+        font-size: 1rem;
+    }
+
+    /* Online game section */
+    .online-game-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+        margin-top: 0px;
+        /* padding: 50px; */
+    }
+    .online {
+
+        margin-top: 0px;
+        padding: 50px;
+    }
 }
 
 
@@ -92,27 +111,53 @@
         font-size: 1rem;
         margin-right: 5px;
     }
+
     /* gamer banner */
-    .gamer-banner{
-       flex-direction: column;
+    .gamer-banner {
+        flex-direction: column;
     }
-    .gamer-text{
+
+    .gamer-text {
         width: 100%;
         text-align: center;
     }
-    .gamer-image{
+
+    .gamer-image {
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
-    .gamer-tittle{
+
+    .gamer-tittle {
         font-size: 2rem;
         padding: 30px;
-       }
-       .btn3{
+    }
+
+    .btn3 {
         font-size: 1rem;
-       }
-       .quote{
+    }
+
+    .quote {
         font-size: 1rem;
-       }
+    }
+
+    /* Online Game section */
+    .online {
+
+        margin-top: 0px;
+        padding: 50px;
+    }
+
+    .online-game-container {
+        grid-template-columns: 1fr;
+        gap: 70px;
+        margin-top: 0px;
+    }
+
+    .online-tittle {
+        font-size: 1.3rem;
+    }
+
+    .online-funny {
+        font-size: 1.3rem;
     }
 }

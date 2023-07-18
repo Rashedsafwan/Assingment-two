@@ -88,7 +88,8 @@ nav li a {
 .banner-image {
     width: 50%;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
     height: 100%;
 }
@@ -103,16 +104,18 @@ nav li a {
     font-size: 5rem;
     font-weight: 800;
     color: transparent;
-    background-image: linear-gradient(to bottom,#F948B2, #8758F1);
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     -webkit-background-clip: text;
     margin: -50px auto -10px;
 }
-.instruction{
+
+.instruction {
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 500;
 }
-.btn{
+
+.btn {
     background-color: #FF42A5;
     color: white;
     padding: 15px 25px;
@@ -121,51 +124,151 @@ nav li a {
     margin-right: 15px;
     font-size: 1.1rem;
 }
-.btn2{
+
+.btn2 {
     background-color: #4EC5F7;
-   
+
 }
+
 /* banner section ends here */
 
 
 /* gamer section starts here */
-.gamer-banner{
+.gamer-banner {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
-.gamer-text{
+
+.gamer-text {
     width: 40%;
     text-align: right;
 }
-.gamer-image{
+
+.gamer-image {
     width: 60%;
     border: 1px solid red;
 }
-.gamer-image img{
+
+.gamer-image img {
     width: 100%;
     height: 100%;
 }
-.gamer-tittle{
+
+.gamer-tittle {
     font-size: 2.8rem;
     font-weight: 700;
     color: transparent;
-    background-image: linear-gradient(to bottom,#F948B2, #8758F1);
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     -webkit-background-clip: text;
 }
-.gamer-description{
+
+.gamer-description {
     color: #534C64;
     font-size: 1rem;
     font-weight: 400;
     margin-top: -40px;
 }
-.quote{
+
+.quote {
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 600;
 }
-.btn3{
+
+.btn3 {
     margin-right: 0px;
 }
+
 /* gamer section ends here */
+
+/* Online gamer section starts here */
+.online{
+    text-align: center;
+    margin-top: 80px;
+}
+.online-game-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.online-tittle{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.online-funny{
+    font-size: 2.8rem;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+}
+.online-text{
+    color:#534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: -20px auto 30px;
+}
+.box {
+    height: 350px;
+    position: relative;
+    /* border: 2px solid blue; */
+}
+.descrip{
+    text-align: left;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-radius: 15px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.box:hover::after {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+.box:hover {
+    .watch {
+        display: list-item;
+    }
+}
+
+.watch {
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    display: none;
+}
+
+.watch-red {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.fa-circle-play {
+    color: white;
+    font-size: 2rem;
+}
+
+/* Online gamer section ends here */
