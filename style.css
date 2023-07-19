@@ -262,6 +262,8 @@ nav li a {
     .watch {
         display: list-item;
     }
+    border: 2px solid #FF42A5;
+    border-radius: 15px;
 }
 
 .watch {
@@ -406,4 +408,78 @@ nav li a {
 /* Career section ends here */
 
 /* summary section starts here */
+.summary-container{
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.games{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 4px;
+}
+.games img{
+    width: 40px;
+}
+.games:hover{
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #FF42A5;
+    font-weight: 600;
+}
 /* summary section ends here */
+footer{
+    background-color: #0B0223;
+}
+.footer-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    padding-top: 60px;
+}
+.about-us{
+    
+}
+.about-us a{
+    text-decoration: none;
+    color: white;
+    /* margin-right: 25px; */
+    padding: 15px;
+}
+.media-link{
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 2rem;
+}
+.privacy a{
+    font-size: 1rem;
+    margin-right: 15px;
+    text-decoration: none;
+   color: rgba(255, 255, 255, 0.60)
+}
+.logo{
+    color:white;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footerlogo{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.g{
+    color:#FF42A5;
+}
+.copyright{
+    color:rgba(255, 255, 255, 0.60);
+    padding: 10px;
+}
