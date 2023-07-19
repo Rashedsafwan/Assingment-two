@@ -286,9 +286,11 @@
 
 .footer-container{
     padding: 50px;
+    height: 350px;
 }
-.about-us a{
-  margin-top: 10px;
+.about-us > a{
+padding: 40px auto ;
+
 }
 
 .privacy a{
