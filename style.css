@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
 
 * {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -106,13 +108,13 @@ nav li a {
     color: transparent;
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     -webkit-background-clip: text;
-    margin: -50px auto -10px;
 }
 
 .instruction {
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .btn {
@@ -169,7 +171,7 @@ nav li a {
     color: #534C64;
     font-size: 1rem;
     font-weight: 400;
-    margin-top: -40px;
+    margin: 15px 0px;
 }
 
 .quote {
@@ -179,16 +181,18 @@ nav li a {
 }
 
 .btn3 {
+    margin-bottom: 15px;
     margin-right: 0px;
 }
 
 /* gamer section ends here */
 
 /* Online gamer section starts here */
-.online{
+.online {
     text-align: center;
     margin-top: 80px;
 }
+
 .online-game-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -197,29 +201,35 @@ nav li a {
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
 }
-.online-tittle{
+
+.online-tittle {
     font-size: 2.8rem;
     font-weight: 700;
     color: #0B0223;
+    margin-bottom: 15px;
 }
-.online-funny{
+
+.online-funny {
     font-size: 2.8rem;
     color: transparent;
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     -webkit-background-clip: text;
 }
-.online-text{
-    color:#534C64;
+
+.online-text {
+    color: #534C64;
     font-size: 1rem;
     font-weight: 400;
-    margin: -20px auto 30px;
+    margin-bottom: 30px;
 }
+
 .box {
     height: 350px;
     position: relative;
     /* border: 2px solid blue; */
 }
-.descrip{
+
+.descrip {
     text-align: left;
     width: 90%;
 }
@@ -271,50 +281,129 @@ nav li a {
     color: white;
     font-size: 2rem;
 }
+
 /* Online gamer section ends here */
 
 
 /* Horse section starts here */
 
-.horse-section{
-margin: 120px auto;
+.horse-section {
+    margin: 120px auto;
 }
-.horse-container{
-max-width: 1000px;
-margin: 0 auto;
-display: flex;
-align-items: center;
+
+.horse-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
-.horse-text{
-width: 50%;
+
+.horse-text {
+    width: 50%;
 }
-.horse-image{
-width: 50%;
-position: relative;
+
+.horse-image {
+    width: 50%;
+    position: relative;
 
 }
-.horse-image img{
+
+.horse-image img {
     width: 100%;
 }
-.baby{
+
+.baby {
     width: 50%;
     position: absolute;
-    bottom: -50px; left: -100px;
+    bottom: -50px;
+    left: -100px;
 }
-.horse-tittle{
+
+.horse-tittle {
     font-size: 3rem;
     font-weight: 700;
     width: 70%;
 }
-.horse-descrip{
+
+.horse-descrip {
     width: 70%;
     color: #534C64;
     font-weight: 400;
 }
-.horse-play{
+
+.horse-play {
     color: transparent;
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     -webkit-background-clip: text;
 }
 
 /* Horse gamer section ends here */
+
+/* Career section starts here */
+.career-section {
+    background-color: #FF42A5;
+}
+
+.career-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    padding: 70px 0px;
+    align-items: center;
+}
+
+.career-text {
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.career-tittle {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.career-description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.career-image {
+    width: 50%;
+}
+
+.career-image img {
+    width: 100%;
+}
+
+.list {
+    display: flex;
+}
+
+.right li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: .8rem;
+    text-align: right;
+}
+.left li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: .8rem;
+    text-align: left;
+}
+
+.btn4{
+    color: #FF42A5;
+    font-size: 1rem;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+}
+/* Career section ends here */
+
+/* summary section starts here */
+/* summary section ends here */
